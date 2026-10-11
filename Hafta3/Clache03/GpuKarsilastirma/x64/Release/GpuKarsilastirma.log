@@ -1,0 +1,152 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\USER\Desktop\Hafta3\Clache03>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include"     --keep-dir GpuKarsilastirma\x64\Release  -maxrregcount=0   --machine 64 --compile -cudart static    -D"WIN32" -D"WIN64" -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS   /MD " -Xcompiler "/FdGpuKarsilastirma\x64\Release\vc143.pdb" -o C:\Users\USER\Desktop\Hafta3\Clache03\GpuKarsilastirma\x64\Release\kernel.cu.obj "C:\Users\USER\Desktop\Hafta3\Clache03\kernel.cu" 
+C:\opencv\build\install\include\opencv2/stitching/detail/warpers.hpp(235): warning #611-D: overloaded virtual function "cv::detail::PlaneWarper::buildMaps" is only partially overridden in class "cv::detail::AffineWarper"
+    class  AffineWarper : public PlaneWarper
+           ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:\opencv\build\install\include\opencv2/stitching/detail/warpers.hpp(235): warning #611-D: overloaded virtual function "cv::detail::PlaneWarper::warp" is only partially overridden in class "cv::detail::AffineWarper"
+    class  AffineWarper : public PlaneWarper
+           ^
+  
+C:\opencv\build\install\include\opencv2/stitching/detail/matchers.hpp(182): warning #611-D: overloaded virtual function "cv::detail::FeaturesMatcher::match" is only partially overridden in class "cv::detail::BestOf2NearestMatcher"
+    class  BestOf2NearestMatcher : public FeaturesMatcher
+           ^
+  
+C:\opencv\build\install\include\opencv2/stitching/detail/matchers.hpp(236): warning #611-D: overloaded virtual function "cv::detail::FeaturesMatcher::match" is only partially overridden in class "cv::detail::AffineBestOf2NearestMatcher"
+    class  AffineBestOf2NearestMatcher : public BestOf2NearestMatcher
+           ^
+  
+C:\opencv\build\install\include\opencv2/stitching/detail/blenders.hpp(100): warning #611-D: overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::FeatherBlender"
+    class  FeatherBlender : public Blender
+           ^
+  
+C:\opencv\build\install\include\opencv2/stitching/detail/blenders.hpp(127): warning #611-D: overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::MultiBandBlender"
+    class  MultiBandBlender : public Blender
+           ^
+  
+C:\Users\USER\Desktop\Hafta3\Clache03\kernel.cu(207): warning #546-D: transfer of control bypasses initialization of:
+              variable "totalStart" (declared at line 220)
+              variable "blockSize" (declared at line 231)
+              variable "gridSize" (declared at line 233)
+              variable "kernelStart" (declared at line 238)
+        if (status != cudaSuccess) goto cleanup;
+                                   ^
+  
+C:\Users\USER\Desktop\Hafta3\Clache03\kernel.cu(210): warning #546-D: transfer of control bypasses initialization of:
+              variable "totalStart" (declared at line 220)
+              variable "blockSize" (declared at line 231)
+              variable "gridSize" (declared at line 233)
+              variable "kernelStart" (declared at line 238)
+        if (status != cudaSuccess) goto cleanup;
+                                   ^
+  
+C:\Users\USER\Desktop\Hafta3\Clache03\kernel.cu(215): warning #546-D: transfer of control bypasses initialization of:
+              variable "totalStart" (declared at line 220)
+              variable "blockSize" (declared at line 231)
+              variable "gridSize" (declared at line 233)
+              variable "kernelStart" (declared at line 238)
+        if (status != cudaSuccess) goto cleanup;
+                                   ^
+  
+C:\Users\USER\Desktop\Hafta3\Clache03\kernel.cu(218): warning #546-D: transfer of control bypasses initialization of:
+              variable "totalStart" (declared at line 220)
+              variable "blockSize" (declared at line 231)
+              variable "gridSize" (declared at line 233)
+              variable "kernelStart" (declared at line 238)
+        if (status != cudaSuccess) goto cleanup;
+                                   ^
+  
+C:\Users\USER\Desktop\Hafta3\Clache03\kernel.cu(226): warning #546-D: transfer of control bypasses initialization of:
+              variable "blockSize" (declared at line 231)
+              variable "gridSize" (declared at line 233)
+              variable "kernelStart" (declared at line 238)
+        if (status != cudaSuccess) goto cleanup;
+                                   ^
+  
+C:\Users\USER\Desktop\Hafta3\Clache03\kernel.cu(229): warning #546-D: transfer of control bypasses initialization of:
+              variable "blockSize" (declared at line 231)
+              variable "gridSize" (declared at line 233)
+              variable "kernelStart" (declared at line 238)
+        if (status != cudaSuccess) goto cleanup;
+                                   ^
+  
+C:\opencv\build\install\include\opencv2/stitching/detail/warpers.hpp(235): warning #611-D: overloaded virtual function "cv::detail::PlaneWarper::buildMaps" is only partially overridden in class "cv::detail::AffineWarper"
+    class  AffineWarper : public PlaneWarper
+           ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:\opencv\build\install\include\opencv2/stitching/detail/warpers.hpp(235): warning #611-D: overloaded virtual function "cv::detail::PlaneWarper::warp" is only partially overridden in class "cv::detail::AffineWarper"
+    class  AffineWarper : public PlaneWarper
+           ^
+  
+C:\opencv\build\install\include\opencv2/stitching/detail/matchers.hpp(182): warning #611-D: overloaded virtual function "cv::detail::FeaturesMatcher::match" is only partially overridden in class "cv::detail::BestOf2NearestMatcher"
+    class  BestOf2NearestMatcher : public FeaturesMatcher
+           ^
+  
+C:\opencv\build\install\include\opencv2/stitching/detail/matchers.hpp(236): warning #611-D: overloaded virtual function "cv::detail::FeaturesMatcher::match" is only partially overridden in class "cv::detail::AffineBestOf2NearestMatcher"
+    class  AffineBestOf2NearestMatcher : public BestOf2NearestMatcher
+           ^
+  
+C:\opencv\build\install\include\opencv2/stitching/detail/blenders.hpp(100): warning #611-D: overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::FeatherBlender"
+    class  FeatherBlender : public Blender
+           ^
+  
+C:\opencv\build\install\include\opencv2/stitching/detail/blenders.hpp(127): warning #611-D: overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::MultiBandBlender"
+    class  MultiBandBlender : public Blender
+           ^
+  
+C:\Users\USER\Desktop\Hafta3\Clache03\kernel.cu(207): warning #546-D: transfer of control bypasses initialization of:
+              variable "totalStart" (declared at line 220)
+              variable "blockSize" (declared at line 231)
+              variable "gridSize" (declared at line 233)
+              variable "kernelStart" (declared at line 238)
+        if (status != cudaSuccess) goto cleanup;
+                                   ^
+  
+C:\Users\USER\Desktop\Hafta3\Clache03\kernel.cu(210): warning #546-D: transfer of control bypasses initialization of:
+              variable "totalStart" (declared at line 220)
+              variable "blockSize" (declared at line 231)
+              variable "gridSize" (declared at line 233)
+              variable "kernelStart" (declared at line 238)
+        if (status != cudaSuccess) goto cleanup;
+                                   ^
+  
+C:\Users\USER\Desktop\Hafta3\Clache03\kernel.cu(215): warning #546-D: transfer of control bypasses initialization of:
+              variable "totalStart" (declared at line 220)
+              variable "blockSize" (declared at line 231)
+              variable "gridSize" (declared at line 233)
+              variable "kernelStart" (declared at line 238)
+        if (status != cudaSuccess) goto cleanup;
+                                   ^
+  
+C:\Users\USER\Desktop\Hafta3\Clache03\kernel.cu(218): warning #546-D: transfer of control bypasses initialization of:
+              variable "totalStart" (declared at line 220)
+              variable "blockSize" (declared at line 231)
+              variable "gridSize" (declared at line 233)
+              variable "kernelStart" (declared at line 238)
+        if (status != cudaSuccess) goto cleanup;
+                                   ^
+  
+C:\Users\USER\Desktop\Hafta3\Clache03\kernel.cu(226): warning #546-D: transfer of control bypasses initialization of:
+              variable "blockSize" (declared at line 231)
+              variable "gridSize" (declared at line 233)
+              variable "kernelStart" (declared at line 238)
+        if (status != cudaSuccess) goto cleanup;
+                                   ^
+  
+C:\Users\USER\Desktop\Hafta3\Clache03\kernel.cu(229): warning #546-D: transfer of control bypasses initialization of:
+              variable "blockSize" (declared at line 231)
+              variable "gridSize" (declared at line 233)
+              variable "kernelStart" (declared at line 238)
+        if (status != cudaSuccess) goto cleanup;
+                                   ^
+  
+C:\Users\USER\Desktop\Hafta3\Clache03\kernel.cu(55): error : identifier "CLIP_LIMIT" is undefined in device code
+  
+  1 error detected in the compilation of "C:/Users/USER/Desktop/Hafta3/Clache03/kernel.cu".
+  kernel.cu
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\CUDA 12.6.targets(799,9): error MSB3721: The command ""C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include"     --keep-dir GpuKarsilastirma\x64\Release  -maxrregcount=0   --machine 64 --compile -cudart static    -D"WIN32" -D"WIN64" -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS   /MD " -Xcompiler "/FdGpuKarsilastirma\x64\Release\vc143.pdb" -o C:\Users\USER\Desktop\Hafta3\Clache03\GpuKarsilastirma\x64\Release\kernel.cu.obj "C:\Users\USER\Desktop\Hafta3\Clache03\kernel.cu"" exited with code 1.
