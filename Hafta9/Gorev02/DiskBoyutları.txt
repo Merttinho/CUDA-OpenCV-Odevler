@@ -1,0 +1,1 @@
+Renkli görüntünün disk boyutu 2929.74 KB, gri görüntünün disk boyutu ise 977.615 KB olarak ölçülmüştür. Renkli görüntü, üç kanal içerdiğinden gri görüntüye göre yaklaşık üç kat daha fazla disk alanı kaplamıştır.
